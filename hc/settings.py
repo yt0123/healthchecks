@@ -225,6 +225,7 @@ STATICFILES_FINDERS = (
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
     "compressor.finders.CompressorFinder",
 )
+COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = True
 COMPRESS_CSS_HASHING_METHOD = "content"
 COMPRESS_STORAGE = "compressor.storage.GzipCompressorFileStorage"

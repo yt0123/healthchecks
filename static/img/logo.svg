@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" width="64mm" height="64mm" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <title>Healthchecks.io</title>
+    <g transform="translate(-37.042 -124.14)">
+        <rect x="37.042" y="124.14" width="64" height="64" ry="0" fill="#09311b"/>
+        <path d="M71.223 135.83l-5.552-.052-4.083 28.529-.59-3.965H49.966l-.484 3.545 8.416.015.702 5.123 6.101.012 3.761-26.962.642 4.578 3.61-.003z" color="#000" fill="#fff" />
+        <path d="M73.675 153.61l-3.604.007 3.184 22.884 4.8-.006 1.772-12.594 8.266.006.509-3.547-11.894.007-1.065 7.528z" color="#000" fill="#22bc66" fill-opacity=".941" />
+    </g>
+</svg>

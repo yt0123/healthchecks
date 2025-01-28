@@ -1,0 +1,16 @@
+[Unit]
+Description=uWSGI Healthchecks
+
+[Service]
+User=www-data
+Group=www-data
+ExecStart=/path/to/project/uwsgi_venv.sh
+RuntimeDirectory=uwsgi
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+StandardError=syslog
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
